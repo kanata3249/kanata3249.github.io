@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CHALDEAVIEWER_FOLDER=../ChaldeaViewerProd
+CHALDEAVIEWER_FOLDER=../ChaldeaViewer
 
 pushd .
 
