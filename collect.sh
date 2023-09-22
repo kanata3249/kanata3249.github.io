@@ -1,4 +1,4 @@
 #!/bin/sh
 
-sh update_freequestdataviewer.sh
-sh update_chaldeaviewer.sh
+bash update_freequestdataviewer.sh
+bash update_chaldeaviewer.sh

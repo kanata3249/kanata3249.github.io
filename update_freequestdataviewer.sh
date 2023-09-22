@@ -1,10 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 
 FREEQUESTDATAVIEWER_FOLDER=../FreeQuestDataViewer
 
 pushd .
 
 cd $FREEQUESTDATAVIEWER_FOLDER
+bash update_dropdata.sh
 yarn dist
 
 popd

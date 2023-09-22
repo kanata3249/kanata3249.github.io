@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 CHALDEAVIEWER_FOLDER=../ChaldeaViewer
 
