@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://kanata3249.github.io/bondcalculator",
+  "start_url": "https://kanata3249.github.io/questbondcalculator",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
