@@ -11,4 +11,4 @@ DISTDIR=~/deploy/$STAGE/kanata3249
 if [[ ! -d $DISTDIR ]]; then
     mkdir $DISTDIR
 fi
-cp -Rp chaldea freequest index.html $DISTDIR
+cp -Rp chaldea freequest questbondcalculator index.html $DISTDIR
