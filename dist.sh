@@ -1,14 +1,13 @@
 #!/bin/bash
-DISTDIR=~/deploy/dev/kanata3249
 
 STAGE=$1
 if [[ $STAGE != "stg" && $STAGE != "dev" ]]; then
     echo "Unknown stage: $STAGE"
     exit -1
 fi
-DISTDIR=~/deploy/$STAGE/kanata3249
+DISTDIR=/var/www/html/$STAGE/
 
 if [[ ! -d $DISTDIR ]]; then
-    mkdir $DISTDIR
+    mkdir -p $DISTDIR
 fi
 cp -Rp chaldea freequest questbondcalculator index.html $DISTDIR
