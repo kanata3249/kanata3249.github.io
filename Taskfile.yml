@@ -1,0 +1,15 @@
+version: '3'
+
+tasks:
+  Build-all:
+    cmds:
+      - bash collect.sh
+  Build:QuestBondCalculator:
+    cmds:
+      - bash update_questbondcalculator.sh
+  Build:FreeQuestDataViewer:
+    cmds:
+      - bash update_freequestdataviewer.sh
+  Build:ChaldeaViewer:
+    cmds:
+      - bash update_chaldeaviewer.sh
