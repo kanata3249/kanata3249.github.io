@@ -5,7 +5,7 @@ QUESTBONDCALCULATOR_FOLDER=../QuestBondCalculator
 pushd .
 
 cd $QUESTBONDCALCULATOR_FOLDER
-yarn build
+pnpm build
 
 popd
 

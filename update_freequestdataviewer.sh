@@ -6,7 +6,7 @@ pushd .
 
 cd $FREEQUESTDATAVIEWER_FOLDER
 bash update_data.sh
-yarn dist
+pnpm dist
 
 popd
 
